@@ -40,7 +40,13 @@ function draw() {
 }
 
 function keyPressed(){
-  if(keyPressed){
+  if(key == ' '){
+    bird.up();
+  }
+}
+
+function mousePressed(){
+  if(mousePressed){
     bird.up();
   }
 }
